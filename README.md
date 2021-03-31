@@ -1,5 +1,3 @@
-# esport-news-app
-
 Opis aplikacji: Aplikacja esport-news-app jest miejscem, gdzie możliwe jest dodawanie swoich ulubionych newsów ze świata esportu. Aplikacja oferuje:
 
 - tworzenie postów
