@@ -1,0 +1,29 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto";
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.ant-card > .ant-card-cover > img {
+  border-radius: 15px 15px 0 0;
+}
+
+div > .ant-card,
+.ant-card-actions {
+  border-radius: 15px;
+}
+
+.ant-card-meta-detail > .ant-card-meta-description {
+  font-size: 24px;
+}

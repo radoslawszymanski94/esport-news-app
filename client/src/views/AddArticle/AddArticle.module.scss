@@ -1,0 +1,48 @@
+.form {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 50px auto;
+}
+
+.inputLabel {
+  text-transform: uppercase;
+  text-align: left;
+  margin: 15px 0;
+  font-weight: bold;
+}
+
+.submitBtn {
+  width: 30%;
+  margin: 30px auto;
+  padding: 5px 15px;
+  cursor: pointer;
+  text-transform: uppercase;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  background-color: #ffdb4a;
+  border: 2px solid black;
+  border-radius: 10px;
+  transition: 0.3s;
+
+  &:hover {
+    background-color: #ffefad;
+    transform: scale(1.05);
+  }
+}
+
+.input {
+  padding: 7px;
+  border-radius: 10px;
+  border: none;
+  background-color: #fff;
+}
+
+.inputLabel {
+  text-transform: uppercase;
+  text-align: left;
+  margin: 15px 0;
+  font-weight: bold;
+}

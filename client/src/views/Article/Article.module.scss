@@ -1,0 +1,23 @@
+.card {
+  width: 450px;
+
+  img {
+    height: 300px;
+  }
+}
+
+.likesText {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.iconsWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.actionIcon {
+  font-size: 16px;
+  padding: 0px 6px;
+}
